@@ -1,9 +1,25 @@
+import Navigation from "@/components/Navigation";
+import Hero from "@/components/Hero";
+import Overview from "@/components/Overview";
+import Features from "@/components/Features";
+import InTheApp from "@/components/InTheApp";
+import Team from "@/components/Team";
+import Cta from "@/components/Cta";
+import Footer from "@/components/Footer";
+
 export default function Home() {
   return (
-    <main>
-      <h1>TrackPayCo</h1>
-      <p>Add a one-sentence description of what TrackPayCo does.</p>
-      <a href="/app">Open the app</a>
-    </main>
+    <>
+      <Navigation />
+      <main>
+        <Hero />
+        <Overview />
+        <Features />
+        <InTheApp />
+        <Team />
+        <Cta />
+      </main>
+      <Footer />
+    </>
   );
 }

@@ -1,23 +1,27 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Outfit, DM_Sans } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const outfit = Outfit({
+  variable: "--font-outfit",
   subsets: ["latin"],
+  weight: ["600", "700", "900"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
-  title: "TrackPayCo",
-  description: "Add a one-sentence description of what TrackPayCo does.",
+  title: "TrackPay — Split smarter, pay with ease.",
+  description:
+    "Splitting bills shouldn't be complicated. Scan your receipt, assign items to each person, and settle up — all in one place.",
   openGraph: {
-    title: "TrackPayCo",
-    description: "Add a one-sentence description of what TrackPayCo does.",
+    title: "TrackPay — Split smarter, pay with ease.",
+    description:
+      "Splitting bills shouldn't be complicated. Scan your receipt, assign items to each person, and settle up — all in one place.",
     type: "website",
   },
 };
@@ -28,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en" className={`${outfit.variable} ${dmSans.variable}`}>
       <body>{children}</body>
     </html>
   );
