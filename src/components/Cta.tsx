@@ -18,7 +18,7 @@ export default function Cta() {
               Scan the receipt. Split it fair. Get paid. It really is that simple.
             </p>
             <a
-              href="#get-started"
+              href="https://app.trackpay.org"
               className="inline-flex items-center gap-2 bg-navy text-white font-bold text-sm px-7 py-3.5 rounded-full mt-6 hover:opacity-90 transition-opacity"
             >
               Try TrackPay

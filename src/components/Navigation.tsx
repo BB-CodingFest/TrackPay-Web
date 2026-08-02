@@ -32,7 +32,7 @@ export default function Navigation() {
         </nav>
 
         <a
-          href="#get-started"
+          href="https://app.trackpay.org"
           className="hidden md:inline-flex bg-brand text-navy font-semibold text-sm px-5 py-2 rounded-full hover:opacity-90 transition-opacity"
         >
           Get Started
@@ -68,7 +68,7 @@ export default function Navigation() {
             </a>
           ))}
           <a
-            href="#get-started"
+            href="https://app.trackpay.org"
             onClick={() => setOpen(false)}
             className="bg-brand text-navy font-semibold text-sm px-5 py-2 rounded-full text-center"
           >
