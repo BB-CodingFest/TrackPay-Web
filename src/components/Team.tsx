@@ -7,7 +7,7 @@ const members = [
 export default function Team() {
   return (
     <section id="team" className="border-t border-brand/4 py-28">
-      <div className="max-w-[1152px] mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+      <div className="max-w-6xl mx-auto px-4 sm:px-8 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
         <div>
           <span className="inline-block bg-orange/8 border border-orange/25 font-mono text-xs text-orange px-3 py-1 rounded-lg">
             The Team
@@ -18,7 +18,7 @@ export default function Team() {
           <p className="text-base text-white/60 leading-relaxed mt-6">
             TrackPay was built at{" "}
             <span className="font-bold text-white">Coding Fest 2026</span> by
-            a postgraduate team from the University of Sydney — four
+            a postgraduate team from the University of Sydney — three
             engineers tired of awkward post-dinner calculations.
           </p>
           <div className="bg-navy-card border border-brand/4 rounded-2xl flex items-center gap-3 px-4 py-3 mt-6">
@@ -36,9 +36,8 @@ export default function Team() {
           {members.map((member, i) => (
             <div
               key={member.name}
-              className={`bg-navy-card border border-brand/6 rounded-2xl flex flex-col items-center gap-3 p-5 ${
-                i === 2 ? "col-start-1" : ""
-              }`}
+              className={`bg-navy-card border border-brand/6 rounded-2xl flex flex-col items-center gap-3 p-5 ${i === 2 ? "col-start-1" : ""
+                }`}
             >
               <div
                 className={`${member.color} flex items-center justify-center rounded-2xl size-12`}

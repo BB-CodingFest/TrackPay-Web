@@ -1,7 +1,7 @@
 export default function Cta() {
   return (
     <section className="border-t border-brand/4 py-16">
-      <div className="max-w-[1152px] mx-auto px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-8">
         <div className="relative bg-brand rounded-3xl overflow-hidden px-8 py-14 text-center">
           <div
             className="absolute inset-0 opacity-10"

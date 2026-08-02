@@ -28,7 +28,7 @@ const features = [
 export default function Features() {
   return (
     <section id="features" className="border-t border-brand/4 py-28">
-      <div className="max-w-[1152px] mx-auto px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-8">
         <div className="flex flex-col items-center text-center max-w-[672px] mx-auto">
           <span className="inline-block bg-orange/8 border border-orange/25 font-mono text-xs text-orange px-3 py-1 rounded-lg">
             Core Features

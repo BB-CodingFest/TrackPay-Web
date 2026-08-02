@@ -9,7 +9,7 @@ const steps = [
 export default function InTheApp() {
   return (
     <section id="how-it-works" className="border-t border-brand/4 py-28">
-      <div className="max-w-[1152px] mx-auto px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-8">
         <div className="flex flex-col items-center text-center max-w-[576px] mx-auto">
           <span className="inline-block bg-brand/8 border border-brand/20 font-mono text-xs text-brand px-3 py-1 rounded-lg">
             In the App
