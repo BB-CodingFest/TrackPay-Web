@@ -32,10 +32,12 @@ export default function Navigation() {
         </nav>
 
         <a
-          href="https://app.trackpay.org"
+          href="https://www.youtube.com/watch?v=xfzya3aNMwg"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden md:inline-flex bg-brand text-navy font-semibold text-sm px-5 py-2 rounded-full hover:opacity-90 transition-opacity"
         >
-          Get Started
+          Watch Demo
         </a>
 
         <button
@@ -68,11 +70,13 @@ export default function Navigation() {
             </a>
           ))}
           <a
-            href="https://app.trackpay.org"
+            href="https://www.youtube.com/watch?v=xfzya3aNMwg"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setOpen(false)}
             className="bg-brand text-navy font-semibold text-sm px-5 py-2 rounded-full text-center"
           >
-            Get Started
+            Watch Demo
           </a>
         </div>
       )}
